@@ -1,0 +1,40 @@
+    <div className="slides-xpto">
+      {/* radio buttons start */}
+      <div>
+      </div>
+        <input type="radio" name="radio-btn" id="radio-btn-01" />
+        <input type="radio" name="radio-btn" id="radio-btn-02" />
+        <input type="radio" name="radio-btn" id="radio-btn-03" />
+        <input type="radio" name="radio-btn" id="radio-btn-04" />
+      {/* radio buttons end */}
+      {/* slide images start */}
+      <div className="slide first">
+        <img src={img001} alt="" />
+      </div>
+      <div className="slide">
+        <img src={img002} alt="" />
+      </div>
+      <div className="slide">
+        <img src={img003} alt="" />
+      </div>
+      <div className="slide">
+        <img src={img000} alt="" />
+      </div>
+      {/* slide images end */}
+      {/* automatic navigation start */}
+      <div className="navigation-auto">
+        <div className="auto-btn1"></div>
+        <div className="auto-btn2"></div>
+        <div className="auto-btn3"></div>
+        <div className="auto-btn4"></div>
+      </div>
+      {/* automatic navigation end */}
+      {/* manual navigation start */}
+      <div className="navigation-manual">
+        <label htmlFor="radio-btn-01" className="manual-btn" ></label>
+        <label htmlFor="radio-btn-02" className="manual-btn" ></label>
+        <label htmlFor="radio-btn-03" className="manual-btn" ></label>
+        <label htmlFor="radio-btn-04" className="manual-btn" ></label>
+      </div>
+      {/* manual navigation end */}
+    </div> 
