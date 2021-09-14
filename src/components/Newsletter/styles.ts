@@ -36,6 +36,11 @@ export const Container = styled.div`
         font-size: 14px;
         font-weight: 900;
         color: #f2f2f2;
+        cursor: pointer;
+    }
+    .inputs-container button:hover{
+        background: #c99F03;
+
     }
     .inputs-container p{
         width: auto;
@@ -80,4 +85,25 @@ export const Container = styled.div`
         color: #fff;
         margin-top: 15px;
     }
+    .submited button:hover{
+        background-color: #333333;
+    }
+    @media (max-width: 880px){
+        height: 320px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h4{
+            text-align: center;
+        }
+        .inputs-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .inputs-container button{
+            width:280px;
+        }
+  }
 `;

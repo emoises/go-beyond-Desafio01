@@ -7,11 +7,7 @@ import { Container } from './styles';
 
 const Products: React.FC = () => {
   const [increment, setIncrement] = useState(1)
-  useEffect(() => {
-    // eslint-disable-next-line no-restricted-globals
-    const myScreen = screen.width
-    console.log(myScreen)
-  }, [])
+ 
 useEffect(()=>{
   if(increment<0) return setIncrement(0)
   if(increment>9) return setIncrement(9)
@@ -28,10 +24,7 @@ useEffect(()=>{
                 <FontAwesomeIcon icon={faChevronLeft} />
               </button>
               <div 
-                className="items-container" 
-                  style={{
-                    gridTemplateColumns: "repeat(12,1fr)",
-                    }}>
+                className="items-container">
                   {
                     [...Array(12)].map( (item, idx) => {
                       return(

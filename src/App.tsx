@@ -12,7 +12,7 @@ const slides = [
       id: "001",
       name: "",
       description: {
-          primaryMessage:"Olá, O que você quer fazer para entrar de cabeça no <br/> Desenvolvimento",
+          primaryMessage:"Olá, O que você quer fazer para entrar de cabeça no Desenvolvimento",
           secondaryMessage: "front-end • back-end • mobile"
       },
       imageUrl: "https://images.unsplash.com/photo-1498049860654-af1a5c566876?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"

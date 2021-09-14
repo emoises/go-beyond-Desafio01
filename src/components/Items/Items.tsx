@@ -1,7 +1,10 @@
 import React from 'react';
+
 import shoes from '../../images/shoes.png'
 import Rate from '../Rate/Rate';
+import whatsapp from '../../assets/whatsapp.png'
 import './styles.css'
+
 
 interface ItemsProps {
   increment: number;
@@ -9,6 +12,7 @@ interface ItemsProps {
 const Items: React.FC<ItemsProps> = ({increment}) => {
   return (
       <div className="product-container" style={{position: 'relative', left: `-${increment*240}px`}}>
+            <div id="poligon">OFF</div>
         <img src={shoes} alt="" />
         <div className="description">
             <span>Sapato Floater Preto</span>
@@ -20,7 +24,10 @@ const Items: React.FC<ItemsProps> = ({increment}) => {
             <p>ou em 9x de R$ 28,87</p>
 
         </div>
-        <a href="/">comprar</a>
+        <a href="/">
+          <img src={whatsapp} alt="" />
+          comprar
+          </a>
       </div>
   )
 }
